@@ -8,7 +8,7 @@ if [ -z "${INPUT_UPSTREAM_REPOSITORY}" ]; then
     echo '      example: "upstream_repository: ivanmilov/upstream_check_new_commits"' 1>&2
     exit 1
 else
-    UPSTREAM_REPO="https://github.com/${INPUT_UPSTREAM_REPOSITORY}.git"
+    UPSTREAM_REPO="${INPUT_UPSTREAM_REPOSITORY}"
 fi
 
 # ensure target_branch is checked out
