@@ -1,5 +1,5 @@
 name: 'Check Upstream Url'
-author: 'Ivan Milov','deathzombee'
+author: 'deathzombee'
 description: 'Checks whether original repo has new commits'
 
 branding:
